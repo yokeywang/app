@@ -1,1 +1,17 @@
+ion-content{
+  font-family:"simhei", Arial, Helvetica, sans-serif;;
+}
+ion-content>div.bg{
+  color:#fff;
+  background:url('../../assets/resource/img_my_head.png');
+  height:40%;
+  text-align: center;
+  padding-top:10px;
+  background-size: cover;
+}
+ion-content>div.bg>img{
+  margin-top:10px;
+}
+
+
 

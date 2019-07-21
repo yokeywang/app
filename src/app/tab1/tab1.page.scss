@@ -1,4 +1,22 @@
-.welcome-card img {
-  max-height: 35vh;
-  overflow: hidden;
+ion-content>div.bg{
+  background:url('../../assets/resource/img_home_bg.png');
+  height:40%;
+  background-size: cover;
+  text-align:center;
+  color:#fff;
+  padding-top:20px;
+}
+ion-content>div.bg>p{
+  font-size:0.5em;
+  padding-top:3em;
+}
+ion-content>div.bg>ion-input{
+  width:80%;
+  font-size:0.6em;
+  border-radius:3px;
+  color:#f60;
+  margin-left:10%;
+  background:#fff url('../../assets/resource/ic_home_search.png') no-repeat left center;
+  background-size: 2em 2em;
+
 }

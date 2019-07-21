@@ -1,9 +1,35 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Three
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<!--<ion-header>-->
+  <!--<ion-toolbar>-->
+    <!--<ion-title>-->
+      <!--我的-->
+    <!--</ion-title>-->
+  <!--</ion-toolbar>-->
+<!--</ion-header>-->
 
-<ion-content></ion-content>
+<ion-content>
+  <div class="bg">
+    <ion-fab vertical="top" horizontal="end" slot="fixed">
+        <ion-icon name="settings" ></ion-icon>
+    </ion-fab>
+    <span style="width:80px;text-align: center">我的</span>
+    <br>
+    <img src="assets/resource/img_default_head.png" style="width:80px;height:80px"><br>
+    <ion-button fill="outline" size="small" style="color:#fff" color="light">点击登录</ion-button>
+  </div>
+  <ion-list>
+    <ion-item button>
+      <ion-icon slot="start" name="camera" color="medium"></ion-icon>
+      <ion-label color="medium" style="font-size:0.8em">我的照片</ion-label>
+    </ion-item>
+    <ion-item button>
+      <ion-icon name="cube" slot="start" color="medium"></ion-icon>
+      <ion-label color="medium" style="font-size:0.8em">我的收藏</ion-label>
+    </ion-item>
+    <ion-item button>
+      <ion-icon name="cloud-upload" slot="start" color="medium"></ion-icon>
+      <ion-label color="medium" style="font-size:0.8em">上传食物数据</ion-label>
+    </ion-item>
+  </ion-list>
+
+
+</ion-content>
